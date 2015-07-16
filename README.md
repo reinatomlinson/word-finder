@@ -73,44 +73,6 @@ Run the app:
 
 Then navigate to `http://localhost:3000`
 
-##Signing up, and deploying to Nodejitsu
-
-###Documentation
-
-The documenation was available on the front page (right under the sign up for free button): https://www.nodejitsu.com/getting-started/
-
-Install the Nodejitsu Package
-
-    npm install jitsu -g (you may need to prefix this with sudo if you're on Mac)
-
-Register via the command line:
-
-    jitsu signup (yes you can sign up via the command line)
-
-You'll get a confirmation email with a command to type in:
-
-    jitsu users confirm [username] [confirmation-guid]
-
-If you've already registered, you can login with:
-
-    jitsu login
-
-After you confirm your email, you can login (the `confirm` command should prompt you to log in).
-
-Change the `subdomain` value in `package.json`, to reflect the url you want to deploy to:
-
-    {
-      "name": "word-finder",
-      [...],
-      "subdomain": "word-finder" <--- this value
-    }
-
-now deploy:
-
-    jitsu deploy
-
-And your app should be up on Nodejitsu.
-
 ##Signing up, and deploying to Heroku
 
 ###Documentation
