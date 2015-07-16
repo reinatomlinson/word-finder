@@ -73,8 +73,11 @@ Run the app:
 
 Then navigate to `http://localhost:3000`
 
-##Signing up, and deploying to Nodejitsu
 
+#Nodejitsu is no longer accepting new accounts, and existing accounts will shut down around September 2015. See "https://blog.nodejitsu.com/nodejitsu-joins-godaddy/"
+
+
+##Signing up, and deploying to Nodejitsu
 ###Documentation
 
 The documenation was available on the front page (right under the sign up for free button): https://www.nodejitsu.com/getting-started/
